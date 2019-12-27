@@ -1,0 +1,95 @@
+.fireSystemBlocks {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fireSystemImagesBlocks {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.fireSystemImage {
+    width: 30%;
+    height: 100%;
+    background-image: url("./Image/fireSystem.png");
+    background-repeat: no-repeat;
+    background-size: 36% 70%;
+    background-position: right; 
+}
+.fireSystemBlock {
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+.fireSystemTitle {
+    width: 60%;
+    height: 100%;
+    color: rgb(11, 110, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fireSystemValue {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    font-size: 24px;
+    font: bolder;
+    color: rgb(28,244,249);
+}
+.fireSystemTotalBlocks {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fireSystemTotals {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fireSystemTotals > span {
+    width: 100%;
+    height: 4%;
+    color: rgb(11, 110, 239);
+    text-align: center;
+}
+.publicLightingImage {
+    width: 30%;
+    height: 100%;
+    background-image: url("./Image/publicLighting.png");
+    background-repeat: no-repeat;
+    background-size: 40% 70%;
+    background-position: right; 
+}
+.elevatorImage {
+    width: 30%;
+    height: 100%;
+    background-image: url("./Image/elevator.png");
+    background-repeat: no-repeat;
+    background-size: 52% 60%;
+    background-position: right; 
+}
+.elevatorTotalsBlock {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.elevatorBlock {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    padding-top: 6%;
+}

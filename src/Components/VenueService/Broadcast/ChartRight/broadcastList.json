@@ -1,0 +1,106 @@
+[{
+    "broadcastID": "01",
+    "broadcastName": "特殊展厅走进历史01号录播",
+    "broadcastGroup": "展厅01",
+    "broadcastPosition": "特殊展厅走进历史01室",
+    "broadcastIP": "10.92.119.1",
+    "broadcastVolume": 25
+},{
+    "broadcastID": "02",
+    "broadcastName": "油画展厅02录播",
+    "broadcastGroup": "展厅02",
+    "broadcastPosition": "特殊展厅走进历史02室",
+    "broadcastIP": "10.92.119.2",
+    "broadcastVolume": 20
+},{
+    "broadcastID": "03",
+    "broadcastName": "油画展厅03录播",
+    "broadcastGroup": "展厅03",
+    "broadcastPosition": "03特殊展厅",
+    "broadcastIP": "10.92.119.3",
+    "broadcastVolume": 30
+},{
+    "broadcastID": "04",
+    "broadcastName": "油画展厅04录播",
+    "broadcastGroup": "展厅04",
+    "broadcastPosition": "04特殊展厅",
+    "broadcastIP": "10.92.119.4",
+    "broadcastVolume": 50
+},{
+    "broadcastID": "05",
+    "broadcastName": "油画展厅05录播",
+    "broadcastGroup": "展厅05",
+    "broadcastPosition": "05特殊展厅",
+    "broadcastIP": "10.92.119.5",
+    "broadcastVolume": 40
+},{
+    "broadcastID": "06",
+    "broadcastName": "油画展厅06录播",
+    "broadcastGroup": "展厅06",
+    "broadcastPosition": "06特殊展厅",
+    "broadcastIP": "10.92.119.6",
+    "broadcastVolume": 34
+},{
+    "broadcastID": "07",
+    "broadcastName": "油画展厅07录播",
+    "broadcastGroup": "展厅07",
+    "broadcastPosition": "07特殊展厅",
+    "broadcastIP": "10.92.119.07",
+    "broadcastVolume": 23
+},{
+    "broadcastID": "08",
+    "broadcastName": "油画展厅08录播",
+    "broadcastGroup": "展厅08",
+    "broadcastPosition": "08特殊展厅",
+    "broadcastIP": "10.92.119.08",
+    "broadcastVolume": 20
+},{
+    "broadcastID": "09",
+    "broadcastName": "油画展厅09录播",
+    "broadcastGroup": "展厅09",
+    "broadcastPosition": "09特殊展厅",
+    "broadcastIP": "10.92.119.09",
+    "broadcastVolume": 26
+},{
+    "broadcastID": "10",
+    "broadcastName": "油画展厅10录播",
+    "broadcastGroup": "展厅10",
+    "broadcastPosition": "10特殊展厅",
+    "broadcastIP": "10.92.119.10",
+    "broadcastVolume": 25
+},{
+    "broadcastID": "11",
+    "broadcastName": "油画展厅11录播",
+    "broadcastGroup": "展厅11",
+    "broadcastPosition": "11特殊展厅",
+    "broadcastIP": "10.92.119.11",
+    "broadcastVolume": 34
+},{
+    "broadcastID": "12",
+    "broadcastName": "油画展厅12录播",
+    "broadcastGroup": "展厅12",
+    "broadcastPosition": "12特殊展厅",
+    "broadcastIP": "10.92.119.12",
+    "broadcastVolume": 36
+},{
+    "broadcastID": "13",
+    "broadcastName": "油画展厅13录播",
+    "broadcastGroup": "展厅13",
+    "broadcastPosition": "13特殊展厅",
+    "broadcastIP": "10.92.119.13",
+    "broadcastVolume": 13
+},{
+    "broadcastID": "14",
+    "broadcastName": "油画展厅14录播",
+    "broadcastGroup": "展厅14",
+    "broadcastPosition": "14特殊展厅",
+    "broadcastIP": "10.92.119.14",
+    "broadcastVolume": 10
+},{
+    "broadcastID": "15",
+    "broadcastName": "油画展厅15录播",
+    "broadcastGroup": "展厅15",
+    "broadcastPosition": "15特殊展厅",
+    "broadcastIP": "10.92.119.15",
+    "broadcastVolume": 18
+}]

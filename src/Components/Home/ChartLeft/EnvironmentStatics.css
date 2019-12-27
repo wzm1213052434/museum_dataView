@@ -1,0 +1,46 @@
+.home-environment-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3%;
+  height: 8%;
+  width: 100%;
+}
+.home-environment-buttons > button {
+  width: 30%;
+  text-align: center;
+  margin: 1% 2%;
+  font-size: 12px;
+  color: white;
+  border: 0.5px solid rgb(0, 83, 229);
+  background: rgba(0, 83, 229, 0.3);
+  outline:none;
+}
+.home-environment-buttons > button:hover {
+  background: rgb(11, 110, 239);
+}
+.home-environment-progresses {
+  height: 80%;
+  width: 95%;
+}
+.home-environment-progress {
+  height: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1%;
+}
+.home-environment-progress:first-child {
+  margin-top: 1%;
+}
+.home-environment-subTitle {
+  color: rgb(11, 110, 239);
+  width: 20%;
+  text-align: center;
+}
+.home-environment-value {
+  width: 18%;
+  text-align: center;
+  font-size: 12px;
+  color: rgb(28, 244, 249);
+}

@@ -1,0 +1,205 @@
+.LiveBroadcastWhole {
+  height: 100%;
+  padding-top: 3%;
+  font-size: 12px;
+}
+.createNewLiveButton {
+  width: 40%;
+  display: block;
+  background: rgb(10, 102, 238);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 5%;
+}
+.LiveBroadcastTable {
+  width: 90%;
+  line-height: 2em;
+  margin: 0 auto;
+  color: rgb(28, 244, 249);
+  text-align: center;
+}
+.TableHeader {
+  height: 10%;
+  line-height: 2em;
+  border-top: 1px rgb(2, 48, 115) solid;
+  border-bottom: 1px rgb(2, 48, 115) solid;
+  background: rgba(2, 48, 115, 0.6);
+}
+.TableTr {
+  line-height: 3em;
+  border-bottom: 1px rgb(2, 48, 115) solid;
+}
+.TableHeader >th:first-child {
+  width: 70%;
+}
+.TableTr > td:first-child {
+  width: 70%;
+}
+.broadcastNameItem {
+  border-right: 1px rgb(2, 48, 115) solid;
+}
+.TableOperation {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1em;
+}
+ .TableOperation > div {
+  height: 1em;
+  width: 1em;
+  cursor: pointer;
+}
+.TableOperation > div:nth-child(1) {
+  background: url("./images/change.png");
+  background-size: 100% 100%;
+}
+.TableOperation > div:nth-child(2) {
+  background: url("./images/delete.png");
+  background-size: 100% 100%;
+}
+.TableOperation > div:nth-child(3) {
+  background: url("./images/begin.png");
+  background-size: 100% 100%;
+}
+.LiveBroadcastModal :global(.ant-modal-header) {
+  background: rgba(2, 48, 115, 0.9);
+  border-bottom: none;
+}
+.LiveBroadcastModal :global(.ant-modal-header > .ant-modal-title) {
+  color: white;
+  text-align: center;
+}
+.LiveBroadcastModal :global(svg) {
+  fill: white !important;
+}
+.LiveBroadcastModal :global(.ant-modal-content) {
+  width: 150%;
+  margin-left: -25%;
+  margin-top: 15%;
+  background: rgba(2, 48, 115, 0.6);
+}
+.ModalWhole {
+  width: 100%;
+  height: 60%;
+}
+.ModalWhole > div {
+  margin: 2% auto 0;
+  width: 85%;
+}
+.ModalWhole > div:nth-child(1) input {
+  display: inline-block;
+  width: 80%;
+  border: 1px rgb(0, 83, 229) solid;
+  background: none;
+  text-indent: 5%;
+  outline: none;
+  color: white;
+}
+.musicIcon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: url(./images/musicIcon.png);
+  background-size: 100% 100%;
+  margin-right: 2%;
+}
+.ModalSlider {
+  display: flex;
+}
+.ModalSectionName {
+  display: inline-block;
+  width: 20%;
+  color: white;
+}
+.ModalWhole :global(.ant-select-selection-selected-value) {
+  font-size: 12px;
+  margin-top: -4%;
+}
+.terminalList {
+  width: 100%;
+  height: 6rem;
+  overflow: auto;
+  scrollbar-width: thin;
+  border: 1px rgb(0, 83, 229) solid;
+}
+.terminalListItems {
+  list-style: none;
+  color: white;
+}
+.popPaneCheckbox {
+  width: 1em;
+  height: 1em;
+  margin: 0 2%;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+  border: 1px solid rgb(0, 138, 238);
+  border-radius: 2px;
+  outline: none;
+ }
+.checkBoxLabel input[type="checkbox"]:checked {
+  background: url(./images/check.png) no-repeat;
+  background-size: 100% 100%;
+}
+.ModalButtonGroup {
+  text-align: right;
+}
+.ModalButtonGroup > button {
+  width: 20%;
+  border: none;
+  background: rgb(10, 102, 238);
+  color: white;
+  outline: none;
+  margin-top: 3rem;
+  margin-left: 5%;
+  cursor: pointer;
+}
+.fileSelect {
+  height: 40%;
+}
+ :global(.ant-upload-select) {
+  width: 100%;
+}
+:global(.ant-upload .ant-btn) {
+  width: 90px;
+  height: 20px;
+  margin-bottom: 1%;
+  margin-left: 85%;
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  background-color: rgb(0,83,233);
+}
+:global(.ant-upload-list) {
+  margin: 2px auto;
+  height: 120px;
+  overflow: auto;
+  scrollbar-width: thin;
+  background-color: rgba(0, 110, 227,0.2);
+  border: 1px solid rgb(0, 83, 233);
+}
+:global(.ant-upload-list-item) {
+  color: #1890ff;
+}
+:global(textarea.ant-input) {
+  border-radius: 0;
+  color: #fff;
+  border: 1px solid rgb(0, 83, 233);
+  background-color: rgba(0, 110, 227,0.2);
+
+}
+:global(.ant-popover > .ant-popover-content > .ant-popover-arrow) {
+  border-top-color: rgba(0, 63, 135, 0.9);
+  border-right-color: rgba(0, 63, 135, 0.9);
+  border-bottom-color: rgba(0, 63, 135, 0.9);
+  border-left-color: rgba(0, 63, 135, 0.9);
+}
+:global(.ant-popover-inner) {
+  background-color: rgba(0, 63, 135, 0.9);
+}
+:global(.ant-popover-message-title) {
+  color: #fff;
+}

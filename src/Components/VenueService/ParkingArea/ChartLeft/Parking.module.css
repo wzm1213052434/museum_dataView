@@ -1,0 +1,94 @@
+/* 停车场车位显示 */
+.parkingSpaceDisplay {
+  width: 100%;
+  height: 100%;
+}
+.parkingSpaceDisplayTitle {
+  width: 100%;
+  height: 20%;
+  color: rgb(0, 138, 238);
+  text-align: center;
+}
+.parkingSpaceDisplayTitle > span {
+  width: 100%;
+  height: 20%;
+  color: rgb(28, 244, 249);
+}
+/* 停车场管理 */
+.parkingManagementTable {
+  width: 100%;
+  height: 90%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parkingTablePane {
+  width: 95%;
+  height: 90%;
+  overflow: auto;
+  scrollbar-width: thin;
+}
+.parkingTableContent {
+  margin-left: -1%;
+  width: 100%;
+  height: 60%;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+.parkingTableThs {
+  border-top: 1px solid rgba(0, 110, 227, 0.3);
+  border-bottom: 1px solid rgba(0, 110, 227, 0.3);
+}
+.parkingTableTh {
+  color: rgb(28, 244, 249);
+  border-right: 1px solid rgba(0, 110, 227, 0.3);
+}
+.parkingTableTr {
+  border-bottom: 1px solid rgba(0, 110, 227, 0.3);
+}
+.parkingTableTr:first-child {
+  border-top: 1px solid rgba(0, 110, 227, 0.3);
+}
+.parkingTableTd {
+  color: rgb(28, 244, 249);
+  border-right: 1px solid rgba(0, 110, 227, 0.3);
+}
+.parkingTableTd:last-child {
+  cursor: pointer;
+}
+.parkingTablePane > table > thead > tr:first-child {
+  background: rgba(0, 110, 227, 0.3);
+}
+/* 停车场管理——详情查看  */
+.ParkingManagementDetailWhole {
+  position: absolute;
+  /* top: 43%;*/
+  left: 100%;
+  top: 38vh;
+  color: #fff;
+  font-size: 12px;
+  background-image: url("../Image/detailInfo.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 95%;
+  z-index: 100;
+}
+.ParkingManagementDetailWhole > .detailTitle {
+  font-size: 1.8rem;
+  padding: 0 0 0 5%;
+  line-height: 2rem;
+}
+.ParkingManagementDetailWhole > .contentDetail {
+  font-size: 1.5rem;
+  padding: 5% 0 5% 5%;
+}
+.ParkingManagementDetailWhole > .contentDetail > p {
+  margin-bottom: 0;
+}
+.closeDetail {
+  padding-left: 50%;
+  font-size: 1.2rem;
+  vertical-align: middle;
+}

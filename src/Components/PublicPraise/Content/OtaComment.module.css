@@ -1,0 +1,47 @@
+.wholeOtaComment {
+  width: 100%;
+  height: 100%;
+}
+.OtaCarousel {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  background: rgba(10, 102, 238, 0.3);
+}
+.OtaIcons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10%;
+}
+.OtaIcon {
+     fontSize: 40px; 
+     cursor: pointer;
+     color:rgba(0,83,229,1);
+}
+.OtaCarousel div:nth-child(1) {
+  width: 100%;
+  height: 100%;
+}
+.OtaTableRow {
+  width: 100%;
+  height: 33%;
+  text-align: center;
+}
+.OtaTableRow:nth-child(1) {
+  color: rgb(0, 138, 238);
+  font-weight: 700;
+}
+.OtaTableRow:nth-child(2) {
+  color: rgb(28, 244, 249);
+  font-weight: 700;
+}
+.cellSpanHot {
+  color: 2px solid rgba(10, 102, 238, 0.9);
+}
+.cellSpanMeet {
+  color: 2px solid rgb(28, 244, 249);
+}
+.tableCell {
+  line-height: 19px;
+}

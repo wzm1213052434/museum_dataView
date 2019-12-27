@@ -1,0 +1,153 @@
+.otherLeftExhaust {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.exhaustControlBlocks {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.exhaustControlImage {
+    width: 30%;
+    height: 100%;
+    background-image: url("./Image/exhaust.png");
+    background-repeat: no-repeat;
+    background-size: 58% 50%;
+    background-position: right;
+}
+.exhaustControlButtonsBlocks {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.exhaustControlTitle {
+    width: 100%;
+    height: 50%;
+    color: rgb(11, 110, 239);
+    text-align: center;
+    display: flex;
+    padding-left: 15%;
+    padding-top: 10%;
+}
+.exhaustControlButtons {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding-left: 10%;
+}
+.exhaustControlButtons > span {
+    width: 30%;
+    height: 42%;
+    font-size: 12px;
+    color: white;
+    border: 0.5px solid rgb(0, 83, 229);
+    background: rgba(0, 83, 229, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exhaustControlStatusBlocks {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+}
+.exhaustControlStatusTitle {
+    width: 65%;
+    height: 100%;
+    color: rgb(11, 110, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exhaustControlStatusButtons {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.exhaustControlStatusButtons > span {
+    width: 60%;
+    height: 40%;
+    font-size: 12px;
+    color: white;
+    border: 0.5px solid rgb(0, 83, 229);
+    background: rgba(0, 83, 229, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.airSupplyImage {
+    width: 30%;
+    height: 100%;
+    background-image: url("./Image/airSupply.png");
+    background-repeat: no-repeat;
+    background-size: 60% 50%;
+    background-position: right;
+}
+.drainImagesBlocks {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.drainImage {
+    width: 30%;
+    height: 100%;
+    background-image: url("./Image/drain.png");
+    background-repeat: no-repeat;
+    background-size: 36% 50%;
+    background-position: right; 
+}
+.drainImageBlock {
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+.drainImageTitle {
+    width: 60%;
+    height: 100%;
+    color: rgb(11, 110, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drainImageValue {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    font-size: 24px;
+    font: bolder;
+    color: rgb(28,244,249);
+}
+.drainBlocks {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+}
+.waterTankLiquid {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.waterTankLiquid > span {
+    width: 100%;
+    height: 4%;
+    color: rgb(11, 110, 239);
+    text-align: center;
+}

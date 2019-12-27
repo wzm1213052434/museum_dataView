@@ -1,0 +1,32 @@
+.rightTableWhole {
+  height: 85%;
+  width: 100%;
+  margin-top:3%;
+  color: rgb(28, 244, 249);
+  font-size: 8px;
+  line-height: 1;
+  text-align: center;
+}
+.rightTableFirCol {
+  width: 23.8%;
+  text-align: center;
+}
+.rightTableSecCol {
+  width: 52.9%;
+  border: 1px solid rgba(0, 110, 227, 0.5);
+}
+.rightTableThrCol {
+  width: 23.3%;
+}
+.rightTableTh {
+  background: rgba(0, 110, 227, 0.5);
+}
+.rightTableEvenRow {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 110, 227, 0.5);
+}
+.rightTableOddRow {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 110, 227, 0.5);
+  background: rgba(0, 110, 227, 0.3);
+}

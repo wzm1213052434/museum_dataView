@@ -1,0 +1,41 @@
+.commentTable {
+    height: 95%;
+    width: 100%;
+    color: rgb(28, 244, 249);
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    overflow: auto;
+    scrollbar-width: thin;
+}
+.rightTableEvenRow {
+   background: rgba(0, 110, 227, 0.4);
+   border-top: 0.5px rgba(0, 110, 227, 0.6) solid;
+   border-bottom: 0.5px rgba(0, 110, 227, 0.6) solid;
+}
+.rightTableOddRow {
+    background: rgba(0, 0, 0, 0.1);
+    border-top: 0.5px rgba(0, 110, 227, 0.6) solid;
+    border-bottom: 0.5px rgba(0, 110, 227, 0.6) solid;
+}
+.commentTable td:nth-child(1) {
+    padding-left: 30px;
+}
+.commentTable td:nth-child(2) {
+    text-align: left;
+}
+.commentTable td > div {
+   height: 1rem;
+   width: 1rem;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.commentTable td > div.great {
+    background-image: url('./images/greatIcon.png');
+}
+.commentTable td > div.normal {
+    background-image: url('./images/normalIcon.png');
+}
+.commentTable td > div.bad {
+    background-image: url('./images/badIcon.png');
+}

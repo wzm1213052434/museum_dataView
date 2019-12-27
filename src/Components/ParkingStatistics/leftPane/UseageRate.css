@@ -1,0 +1,38 @@
+.contentOfRate {
+  position: relative;
+  margin-top: 21vh;
+  padding: 0vh 2%;
+  height: 47vh;
+  background: url(../img/tab3.png);
+  background-size: 100% 100%;
+  font-weight: 600;
+}
+.titleOfRate {
+  text-align: left;
+  text-indent: 2%;
+  color: rgb(255, 167, 72);
+  height: 2vh;
+}
+.progresses {
+  height: 52%;
+}
+.progress {
+  height: 4.8vh;
+}
+.Statics {
+  display: flex;
+  justify-content: space-between;
+}
+.subTitleOfProgress {
+  color: rgb(90, 245, 250);
+}
+.findMoreButton {
+  width: 100%;
+  margin-top: 1vh;
+  padding-bottom: 1vh;
+  background: rgba(0, 0, 0, 0);
+  color: rgb(90, 245, 250);
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+}

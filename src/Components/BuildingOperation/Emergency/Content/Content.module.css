@@ -1,0 +1,48 @@
+.innerRoom {
+  position: absolute;
+  top: 20%;
+  bottom: 2%;
+  width: 90%;
+  left: 5%;
+  background-image: url("./Image/InnerRoom.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+
+.anotherInnerRoom {
+  position: absolute;
+  top: 20%;
+  bottom: 2%;
+  width: 90%;
+  left: 5%;
+  background-image: url("./Image/switchBackPic.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+
+.pointContainer {
+  position: relative;
+  height: 100%;
+}
+
+.emergencyIcon{
+  height: 6%;
+  position: absolute;
+  width: 10%;
+}
+
+.videoIcon{
+  height: 4%;
+  position: absolute;
+  width: 8%;
+}
+
+.pointTagText {
+  height: 10%;
+  position: absolute;
+  width: 10%;
+  color: #fff;
+  font-size: 1rem;
+}

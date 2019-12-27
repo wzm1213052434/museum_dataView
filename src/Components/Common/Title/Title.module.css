@@ -1,0 +1,105 @@
+.homeTitleWhole {
+  width: 100%;
+  height: 100%;
+  line-height: normal;
+}
+.homeTitleCore {
+  margin: 0 auto;
+  width: 83%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  background: url("./img/titleKuang.png");
+  background-size: 100% 100%;
+}
+.homeTitleMember {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 2.5vh;
+  color: white;
+}
+
+.homeTitleIcons {
+  width: 7%;
+  position: absolute;
+  top: 1.5em;
+  left: 3%;
+  display: flex;
+}
+.homeTitleIcons :nth-child(1) {
+  width: 2vh;
+  height: 2vh;
+  background: url("./img/returnIcon.png");
+  background-size: 100% 100%;
+  margin-right: 10%;
+}
+.homeTitleIcons :nth-child(2) {
+  width: 2vh;
+  height: 2vh;
+  background: url("./img/refreshIcon.png");
+  background-size: 100% 100%;
+  margin-right: 10%;
+}
+.homeTitleIcons :nth-child(3) {
+  width: 2vh;
+  height: 2vh;
+  background: url("./img/wholeIcon.png");
+  background-size: 100% 100%;
+}
+.homeTitleMainTitle {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4vh;
+  font-weight: 700;
+  text-shadow: 0px 0px 1px -webkit-linear-gradient(bottom, rgb(28, 244, 249), rgb(11, 110, 239));
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgb(28, 244, 249),
+    rgb(11, 110, 239)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color:rgb(28, 210, 239);
+}
+.homeTitleTime {
+  width: 14%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1vh;
+}
+.homeTitleYearAndWeek {
+  font-size: 1.3vh;
+}
+.homeTitleSecond {
+  font-size: 2.6vh;
+}
+.homeTitleStatus {
+  width: 16%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.homeTitleTemperature {
+  font-size: 4vh;
+  color: white;
+}
+.homeTitleAirStatus {
+  font-size: 0.5vh;
+  color: white;
+}
+.homeTitleDropdown {
+  display: block;
+  height: 10vh;
+  position: absolute;
+  top: calc(5vh - 12px);
+  bottom: 4vh;
+  left: 55%;
+}

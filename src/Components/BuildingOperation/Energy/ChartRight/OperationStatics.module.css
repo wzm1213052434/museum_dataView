@@ -1,0 +1,16 @@
+.OperationTable {
+  height: 90%;
+  width: 100%;
+  margin-top: 1%;
+  color: rgb(28, 244, 249);
+  font-size: 8px;
+  line-height: 1;
+  text-align: center;
+}
+.rightTableEvenRow {
+  background: rgba(0, 110, 227, 0.3);
+}
+.tableBorder {
+  border-left: 0.5px rgba(0, 110, 227, 0.4) solid;
+  border-right: 0.5px rgba(0, 110, 227, 0.4) solid;
+}

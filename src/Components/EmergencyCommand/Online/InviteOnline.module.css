@@ -1,0 +1,122 @@
+.upPane {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+.upPane > div {
+  color: rgb(0, 138, 238);
+  width: 30%;
+  margin-top: 10%;
+  font-size: 1em;
+}
+.upPane > button {
+  width: 30%;
+  height: 1.6em;
+  margin-top: 10%;
+  border: none;
+  font-size: 12px;
+  background: rgb(0, 100, 255);
+  color: white;
+  outline: none;
+}
+.middlePane {
+  width: 100%;
+  height: 50%;
+  margin-top: 10%;
+  border: 1px solid rgb(0, 138, 238);
+  background: rgba(0, 138, 238, 0.5);
+  overflow: auto;
+  scrollbar-width: thin;
+}
+
+.downPane {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.downPane > button {
+  height: 1.6em;
+  width: 45%;
+  border: none;
+  font-size: 12px;
+  background: rgb(0, 100, 255);
+  outline: none;
+  color: white;
+}
+.popOutPane {
+  position: absolute;
+  top: 5%;
+  left: 105%;
+  width: 80%;
+  height: 30%;
+  background: url(../Image/newMember.png);
+  background-size: 100% 100%;
+  z-index: 100;
+}
+.popPaneHeader {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-left: 5%;
+}
+.popPaneCloseIcon {
+  width: 1.2em;
+  height: 1.2em;
+  background: url(../Image/close.png) no-repeat;
+  background-size: 80% 80%;
+  margin-top: 2%;
+  margin-right: 5%;
+  cursor: pointer;
+}
+.popPaneContent {
+  height: 85%;
+  width: 100%;
+  text-align: center;
+  overflow: auto;
+  scrollbar-width: thin;
+}
+
+.popPaneCheckbox {
+  width: 1em;
+  height: 1em;
+  margin: -5% 10%;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+  border: 1px solid rgb(0, 138, 238);
+  border-radius: 2px;
+  outline: none;
+}
+.checkBoxLabel input[type="checkbox"]:checked {
+  background: url(../Image/check.png) no-repeat;
+  background-size: 100% 100%;
+}
+.popPaneTableTr > td {
+  border-top: 1px solid rgba(0, 138, 238, 0.5);
+  border-right: 1px solid rgba(0, 138, 238, 0.5);
+  color: rgb(28, 244, 249);
+}
+.popPaneTableTr > td:first-child {
+  border-top: none;
+  border-right: none;
+}
+.popPaneTableTr > th {
+  color: white;
+  border-right: 1px solid rgba(0, 138, 238, 0.5);
+}
+.popPaneTableTr > th:first-child {
+  border-right: none;
+}
+.popPaneTableTr > th:last-child,
+.popPaneTableTr > td:last-child {
+  border-right: none;
+}
+.showNewMembersUl {
+  list-style: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-indent: 5%;
+}

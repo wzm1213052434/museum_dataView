@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./index.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="title"></div>
+    <div class="login-pane">
+        <div class="input-area">
+            <div>
+                <span>账号:</span><input type="text" placeholder="请输入账号" id="name" />
+                <span id="errorName" class="errors">请输入用户名</span>
+            </div>
+            <div>
+                <span>密码:</span><input type="password" placeholder="请输入密码" id="password" />
+                <span id="errorPassword" class="errors">请输入密码</span>
+            </div>
+        </div>
+        <div class="button-area">
+            <button id="send">登 录</button>
+        </div>
+    </div>
+    <div id="backArea">
+        <div id="circleArea"></div>
+    </div>
+    <script src="./jquery.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

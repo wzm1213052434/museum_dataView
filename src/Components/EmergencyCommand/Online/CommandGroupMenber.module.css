@@ -1,0 +1,18 @@
+.memberList {
+    height: 90%;
+    width: 100%;
+    margin-top: 2%;
+    color: rgb(28, 244, 249);
+    font-size: 8px;
+    line-height: 1;
+    text-align: center;
+}
+.tableTitle {
+    color: rgb(0, 110, 227);
+}
+.commandGroupList {
+    border-top: 0.5px solid rgba(0, 110, 227, 0.3);
+}
+.tableBorder {
+    border-left: 0.5px rgba(0, 110, 227, 0.4) solid;
+}

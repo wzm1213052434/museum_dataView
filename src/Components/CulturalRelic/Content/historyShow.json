@@ -1,0 +1,302 @@
+[
+  {
+    "name": "藏品的另一种打开方式",
+    "company": "自然科学展馆",
+    "activityType": "展览",
+    "activityDate": "2019-09-01",
+    "workNum": 3,
+    "audienceNum": 3,
+    "activityPlace": "自然科学展馆",
+    "wholeName": "自然科学展馆部门"
+  },
+  {
+    "name": "发现身边的美丽",
+    "company": "自然科学展馆",
+    "activityType": "4D影视",
+    "activityDate": "2019-12-01",
+    "workNum": 4,
+    "audienceNum": 3,
+    "activityPlace": "自然科学展馆4D影厅",
+    "wholeName": "自然科学展馆部门"
+  },
+  {
+    "name": "陨石撞击，是灾难还是恩赐？",
+    "company": "天文展馆",
+    "activityType": "讲座",
+    "activityDate": "2019-09-01",
+    "workNum": 3,
+    "audienceNum": 3,
+    "activityPlace": "天文展馆",
+    "wholeName": "天文展馆部门"
+  },
+  {
+    "name": "免费彩画纹样绘制体验活动",
+    "company": "民俗展馆",
+    "activityType": "制作活动",
+    "activityDate": "2019-12-01",
+    "workNum": 1,
+    "audienceNum": 3,
+    "activityPlace": "民俗展馆",
+    "wholeName": "民俗展馆部门"
+  },
+  {
+    "name": "地博小工匠",
+    "company": "地质展馆",
+    "activityType": "制作活动",
+    "activityDate": "2019-09-01",
+    "workNum": 1,
+    "audienceNum": 3,
+    "activityPlace": "地质展馆",
+    "wholeName": "地质展馆部门"
+  },
+  {
+    "name": "点石成画",
+    "company": "地质展馆",
+    "activityType": "制作活动",
+    "activityDate": "2019-12-01",
+    "workNum": 3,
+    "audienceNum": 2,
+    "activityPlace": "地质展馆",
+    "wholeName": "地质展馆部门"
+  },
+  {
+    "name": "鲁迅与版画之凸版版画（儿童体验场）",
+    "company": "版画艺术中心",
+    "activityType": "亲子活动",
+    "activityDate": "2019-09-01",
+    "workNum": 4,
+    "audienceNum": 1,
+    "activityPlace": "版画艺术体验中心",
+    "wholeName": "版画艺术中心"
+  },
+  {
+    "name": "《鱼祖长腿四亿年》——肉鳍鱼类的前世今生",
+    "company": "古动物展馆",
+    "activityType": "讲座",
+    "activityDate": "2019-12-01",
+    "workNum": 1,
+    "audienceNum": 4,
+    "activityPlace": "古动物展馆",
+    "wholeName": "古动物展馆部门"
+  },
+  {
+    "name": "博物馆奇妙之旅",
+    "company": "自然科学展馆",
+    "activityType": "4D影视",
+    "activityDate": "2019-09-01",
+    "workNum": 0,
+    "audienceNum": 4,
+    "activityPlace": "自然科学展馆4D影厅",
+    "wholeName": "自然科学展馆部门"
+  },
+  {
+    "name": "如何艺术地去生活",
+    "company": "民生现代展馆",
+    "activityType": "讲座",
+    "activityDate": "2019-12-01",
+    "workNum": 4,
+    "audienceNum": 1,
+    "activityPlace": "民生现代展馆",
+    "wholeName": "民生现代展馆部门"
+  },
+  {
+    "name": "博物馆里的小小人",
+    "company": "民生现代展馆",
+    "activityType": "制作活动",
+    "activityDate": "2019-09-01",
+    "workNum": 2,
+    "audienceNum": 3,
+    "activityPlace": "民生现代展馆",
+    "wholeName": "民生现代展馆部门"
+  },
+  {
+    "name": "藏品的另一种打开方式",
+    "company": "自然科学展馆",
+    "activityType": "展览",
+    "activityDate": "2019-12-01",
+    "workNum": 0,
+    "audienceNum": 0,
+    "activityPlace": "自然科学展馆",
+    "wholeName": "自然科学展馆部门"
+  },
+  {
+    "name": "发现身边的美丽",
+    "company": "自然科学展馆",
+    "activityType": "4D影视",
+    "activityDate": "2019-09-01",
+    "workNum": 1,
+    "audienceNum": 2,
+    "activityPlace": "自然科学展馆4D影厅",
+    "wholeName": "自然科学展馆部门"
+  },
+  {
+    "name": "陨石撞击，是灾难还是恩赐？",
+    "company": "天文展馆",
+    "activityType": "讲座",
+    "activityDate": "2019-12-01",
+    "workNum": 1,
+    "audienceNum": 1,
+    "activityPlace": "天文展馆",
+    "wholeName": "天文展馆部门"
+  },
+  {
+    "name": "免费彩画纹样绘制体验活动",
+    "company": "民俗展馆",
+    "activityType": "制作活动",
+    "activityDate": "2019-09-01",
+    "workNum": 0,
+    "audienceNum": 2,
+    "activityPlace": "民俗展馆",
+    "wholeName": "民俗展馆部门"
+  },
+  {
+    "name": "地博小工匠",
+    "company": "地质展馆",
+    "activityType": "制作活动",
+    "activityDate": "2019-12-01",
+    "workNum": 1,
+    "audienceNum": 4,
+    "activityPlace": "地质展馆",
+    "wholeName": "地质展馆部门"
+  },
+  {
+    "name": "点石成画",
+    "company": "地质展馆",
+    "activityType": "制作活动",
+    "activityDate": "2019-09-01",
+    "workNum": 1,
+    "audienceNum": 2,
+    "activityPlace": "地质展馆",
+    "wholeName": "地质展馆部门"
+  },
+  {
+    "name": "鲁迅与版画之凸版版画（儿童体验场）",
+    "company": "版画艺术中心",
+    "activityType": "亲子活动",
+    "activityDate": "2019-12-01",
+    "workNum": 3,
+    "audienceNum": 1,
+    "activityPlace": "版画艺术体验中心",
+    "wholeName": "版画艺术中心"
+  },
+  {
+    "name": "《鱼祖长腿四亿年》——肉鳍鱼类的前世今生",
+    "company": "古动物展馆",
+    "activityType": "讲座",
+    "activityDate": "2019-09-01",
+    "workNum": 1,
+    "audienceNum": 1,
+    "activityPlace": "古动物展馆",
+    "wholeName": "古动物展馆部门"
+  },
+  {
+    "name": "博物馆奇妙之旅",
+    "company": "自然科学展馆",
+    "activityType": "4D影视",
+    "activityDate": "2019-12-01",
+    "workNum": 3,
+    "audienceNum": 2,
+    "activityPlace": "自然科学展馆4D影厅",
+    "wholeName": "自然科学展馆部门"
+  },
+  {
+    "name": "如何艺术地去生活",
+    "company": "民生现代展馆",
+    "activityType": "讲座",
+    "activityDate": "2019-09-01",
+    "workNum": 4,
+    "audienceNum": 3,
+    "activityPlace": "民生现代展馆",
+    "wholeName": "民生现代展馆部门"
+  },
+  {
+    "name": "博物馆里的小小人",
+    "company": "民生现代展馆",
+    "activityType": "制作活动",
+    "activityDate": "2019-12-01",
+    "workNum": 1,
+    "audienceNum": 1,
+    "activityPlace": "民生现代展馆",
+    "wholeName": "民生现代展馆部门"
+  },
+  {
+    "name": "藏品的另一种打开方式",
+    "company": "自然科学展馆",
+    "activityType": "展览",
+    "activityDate": "2019-09-01",
+    "workNum": 2,
+    "audienceNum": 1,
+    "activityPlace": "自然科学展馆",
+    "wholeName": "自然科学展馆部门"
+  },
+  {
+    "name": "发现身边的美丽",
+    "company": "自然科学展馆",
+    "activityType": "4D影视",
+    "activityDate": "2019-12-01",
+    "workNum": 3,
+    "audienceNum": 1,
+    "activityPlace": "自然科学展馆4D影厅",
+    "wholeName": "自然科学展馆部门"
+  },
+  {
+    "name": "陨石撞击，是灾难还是恩赐？",
+    "company": "天文展馆",
+    "activityType": "讲座",
+    "activityDate": "2019-09-01",
+    "workNum": 3,
+    "audienceNum": 4,
+    "activityPlace": "天文展馆",
+    "wholeName": "天文展馆部门"
+  },
+  {
+    "name": "免费彩画纹样绘制体验活动",
+    "company": "民俗展馆",
+    "activityType": "制作活动",
+    "activityDate": "2019-12-01",
+    "workNum": 0,
+    "audienceNum": 0,
+    "activityPlace": "民俗展馆",
+    "wholeName": "民俗展馆部门"
+  },
+  {
+    "name": "地博小工匠",
+    "company": "地质展馆",
+    "activityType": "制作活动",
+    "activityDate": "2019-09-01",
+    "workNum": 0,
+    "audienceNum": 1,
+    "activityPlace": "地质展馆",
+    "wholeName": "地质展馆部门"
+  },
+  {
+    "name": "点石成画",
+    "company": "地质展馆",
+    "activityType": "制作活动",
+    "activityDate": "2019-12-01",
+    "workNum": 0,
+    "audienceNum": 2,
+    "activityPlace": "地质展馆",
+    "wholeName": "地质展馆部门"
+  },
+  {
+    "name": "鲁迅与版画之凸版版画（儿童体验场）",
+    "company": "版画艺术中心",
+    "activityType": "亲子活动",
+    "activityDate": "2019-09-01",
+    "workNum": 1,
+    "audienceNum": 2,
+    "activityPlace": "版画艺术体验中心",
+    "wholeName": "版画艺术中心"
+  },
+  {
+    "name": "《鱼祖长腿四亿年》——肉鳍鱼类的前世今生",
+    "company": "古动物展馆",
+    "activityType": "讲座",
+    "activityDate": "2019-12-01",
+    "workNum": 0,
+    "audienceNum": 2,
+    "activityPlace": "古动物展馆",
+    "wholeName": "古动物展馆部门"
+  }
+]

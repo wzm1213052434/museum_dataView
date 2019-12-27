@@ -1,0 +1,6 @@
+{
+ "rules":{
+      "no-extend-native":[1,{ "exceptions": ["Date"] }],
+      "no-unused-vars": [1, { "varsIgnorePattern": "liquidfill|wordCloud" }]
+    }
+}

@@ -1,0 +1,240 @@
+.selectDropdownMenu {
+  background: rgba(0, 83, 229, 0.3);
+}
+.selectButtons {
+  width: 100%;
+  height: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+  color: rgb(0, 110, 227);
+  font-size: 12px;
+}
+.selectButton {
+  width: 46%;
+  text-align: center;
+}
+.selectButton > span {
+  margin-right: 3%;
+}
+.selectButton input {
+  width: 8rem;
+  height: 28px;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid rgb(0, 110, 227);
+  outline: none;
+}
+.operationButton {
+  width: 100%;
+  height: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 12px;
+}
+.operationButton > button {
+  width: 22%;
+  border: none;
+  outline: none;
+  color: white;
+  background: rgb(0, 100, 255);
+  cursor: pointer;
+  font-size: 12px;
+}
+:global(.recieveModalStyle > .ant-modal-content) {
+  background: rgba(2, 48, 115, 0.6) !important;
+}
+:global(.recieveModalStyle > .ant-modal-content > .ant-modal-header) {
+  background: rgba(2, 48, 115, 1) !important;
+  text-align: center !important;
+  border-bottom: none !important;
+}
+:global(.recieveModalStyle
+    > .ant-modal-content
+    > .ant-modal-header
+    > .ant-modal-title) {
+  color: rgb(255, 255, 255);
+  font-size: 24px !important;
+}
+:global(.recieveModalStyle > .ant-modal-content > .ant-modal-footer) {
+  border-top: none;
+}
+:global(.ant-calendar-input-wrap) {
+  border-bottom: 1px solid rgb(0, 83, 229);
+}
+:global(.recieveModalStyle
+    > .ant-modal-content
+    > .ant-modal-close
+    > .ant-modal-close-x
+    svg) {
+  fill: rgb(255, 255, 255) !important;
+  width: 1.5em;
+  height: 1.5em;
+}
+.modalEvent {
+  width: 100%;
+  height: 520px;
+}
+.modalEventDetail {
+  width: 100%;
+  height: 70%;
+}
+.modalEventDetail > .modalEventDetailTitle {
+  width: 100%;
+  height: 10%;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font: bolder;
+  padding-left: 2%;
+}
+.modalEventOpinion > .modalEventDetailTitle {
+  width: 100%;
+  height: 25%;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font: bolder;
+  padding-left: 2%;
+}
+.modalEventLine {
+  width: 104%;
+  height: 0%;
+  margin-left: -2%;
+  border: 0.8px solid rgb(0, 83, 229);
+}
+.modalEventDetailContent {
+  width: 100%;
+  height: 90%;
+}
+.eventContents {
+  width: 100%;
+  height: 16%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.operationAdvice .eventContents {
+  height: 40%;
+}
+.eventContents > span {
+  width: 30%;
+  height: 100%;
+  margin: 0% 2%;
+  font-size: 12px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.eventContents > span.longInput {
+  width: 100%;
+}
+.eventContents > span > input {
+  width: 56%;
+  background-color: rgba(2, 48, 115, 0.6);
+  border: 0.8px solid rgb(0, 83, 233);
+  border-radius: 5px;
+}
+.eventContents > span.longInput > input {
+  width: 87%;
+}
+.importantEvent {
+  margin-right: 1%;
+  color: rgb(255, 0, 0);
+  display: flex;
+  align-items: center;
+}
+:global(.ant-calendar) {
+  background-color: rgba(2, 48, 115, 0.6) !important;
+}
+:global(.ant-calendar-panel) {
+  background-color: rgba(2, 48, 115, 0.6) !important;
+  color: rgba(255, 255, 255, 0.6);
+}
+:global(.ant-calendar-input) {
+  background-color: rgba(2, 48, 115, 0.6) !important;
+}
+:global(.ant-calendar-picker-input) {
+  color: #fff;
+  background-color: rgba(2, 48, 115, 0.6) !important;
+  border: 0.8px solid rgb(0, 83, 233);
+}
+:global(.ant-calendar-picker-icon) {
+  color: #ccc;
+}
+:global(.ant-calendar-date) {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+:global(.ant-calendar-header) {
+  border: 0.5px solid rgb(10, 102, 238) !important;
+}
+:global(.ant-calendar-my-select > a) {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+:global(.ant-calendar-today-btn) {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+:global(.ant-calendar-body) {
+  border: 0.5px solid rgb(10, 102, 238) !important;
+}
+:global(.ant-calendar-footer) {
+  border: 0.5px solid rgb(10, 102, 238) !important;
+}
+:global(.ant-calendar-selected-day .ant-calendar-date) {
+  background-color: rgb(10, 102, 238) !important;
+}
+:global(.ant-calendar-year-panel) {
+  background-color: rgba(2, 48, 115, 1) !important;
+}
+:global(.ant-calendar-year-panel-decade-select-content) {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+:global(.ant-calendar-year-panel-header) {
+  border: 0.5px solid rgb(10, 102, 238) !important;
+}
+:global(.ant-calendar-year-panel-year) {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+:global(.ant-calendar-decade-panel) {
+  background-color: rgba(2, 48, 115, 1) !important;
+}
+:global(.ant-calendar-decade-panel-header) {
+  border: 0.5px solid rgb(10, 102, 238) !important;
+}
+:global(.ant-calendar-decade-panel-decade) {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+:global(.ant-calendar) {
+  border: none;
+}
+:global(.ant-select-dropdown) {
+  background-color: rgba(0, 0, 0, 0);
+}
+:global(.ant-select-dropdown-menu-item-active:not) {
+  background-color: rgba(0, 0, 0, 0);
+}
+.modalEventOpinion {
+  width: 100%;
+  height: 30%;
+}
+.operationAdvice {
+  width: 100%;
+  height: 90%;
+}
+:global(.ant-select-dropdown) {
+  background: rgba(0, 83, 229, 0.3) !important;
+}
+:global(.ant-select-sm .ant-select-selection__rendered) {
+  line-height: 20px;
+  margin: 0 2px;
+  font-size: 12px;
+}
+:global(.ant-modal-body span > .ant-select-sm > .ant-select-selection) {
+  border-radius: 5px !important;
+  width: 100%;
+}
+:global(.ant-select-dropdown-menu-item) {
+  font-size: 12px !important;
+}

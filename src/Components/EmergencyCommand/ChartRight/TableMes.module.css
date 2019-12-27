@@ -1,0 +1,48 @@
+.tableWhole {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  position: relative;
+}
+.tableCaption {
+  color: white;
+  height: 1.5em;
+  width: 100%;
+  text-align: center;
+  background: rgba(10, 102, 208, 0.3);
+}
+.tableContent {
+  margin-top: 2%;
+  margin-left: -1%;
+  width: 101%;
+  height: 60%;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}
+.tableTd {
+  color: rgb(28, 244, 249);
+  border-right: 1px solid rgba(10, 102, 208, 0.3);
+}
+.tableTh {
+  color: rgb(0, 110, 227);
+  border-right: 1px solid rgba(10, 102, 208, 0.3);
+}
+.tableThr {
+  border-bottom: 1px solid rgba(10, 102, 208, 0.3);
+}
+.tableTr {
+  border-bottom: 1px solid rgba(10, 102, 208, 0.3);
+}
+.tableTr:first-child {
+  border-top: 1px solid rgba(10, 102, 208, 0.3);
+}
+.tableTd:last-child {
+  cursor: pointer;
+}
+.tablePane {
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+  scrollbar-width: thin;
+}

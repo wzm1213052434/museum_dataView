@@ -1,0 +1,127 @@
+.airFreshLeft {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.airFreshBlocks {
+    width: 90%;
+    height: 13%;
+    margin-top: 1%;
+}
+.airFreshSwitchBlocks {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.airFreshSwitchTitle {
+    width: 100%;
+    height: 50%;
+    color: rgb(11, 110, 239);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.airFreshSwitchButtons {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;   /*规定灵活的项目在必要的时候拆行或拆列。*/
+}
+.airFreshSwitchButtons > span {
+    width: 48%;
+    height: 42%;
+    /* text-align: center; */
+    font-size: 12px;
+    color: white;
+    border: 0.5px solid rgb(0, 83, 229);
+    background: rgba(0, 83, 229, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.airFreshHumidityBlocks {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.airFreshHumidityPie {
+    width: 35%;
+    height: 100%;
+}
+.airFreshTitleBlock {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    align-items: center;
+}
+.airFreshHumidityTitle {
+    color: rgb(11, 110, 239);
+    width: 100%;
+}
+.airFreshHumidityValue {
+    width: 100%;
+    padding-left: 22%;
+    font-size: 24px;
+    font: bolder;
+    color: rgb(255, 255, 255);
+}
+.airFreshRunButtons {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.airFreshRunButtons > span {
+    width: 65%;
+    /* height: 50%; */
+    height: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    border: 0.5px solid rgb(0, 83, 229);
+    background: rgba(0, 83, 229, 0.3);
+}
+
+.airFreshFeedbackBlocks {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.airFreshFrequencyTitle {
+    width: 100%;
+    height: 50%;
+    color: rgb(11, 110, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+.airFreshFrequencyValue {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-size: 24px;
+    font: bolder;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,54 @@
+.videoPane {
+  width: 47%;
+  height: 49%;
+  position: absolute;
+  right: 22%;
+  bottom: 9%;
+  background: url(./Image/videoPane.png);
+  background-size: 100% 100%;
+}
+.videoPane > div:first-child {
+  height: 1.5em;
+  color: white;
+  text-indent: 2%;
+}
+.videoBlocks {
+  height: calc(100% - 1.5em);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1%;
+}
+.videoBlock {
+  width: 50%;
+  height: 50%;
+  margin-top: 0;
+}
+.videoBlockUp {
+  width: 95%;
+  height: calc(100% - 2em);
+  margin: 0 auto;
+}
+.videoBlockDown {
+  width: 98%;
+  height: 1.5em;
+  text-align: center;
+  color: white;
+}
+.videoBlocks > div:nth-child(1) > div:first-child {
+  background: url(./Image/videoContent.png);
+  background-size: 100% 100%;
+}
+.videoBlocks > div:nth-child(2) > div:first-child {
+  background: url(./Image/unconnect.png);
+  background-size: 100% 100%;
+}
+.videoBlocks > div:nth-child(3) > div:first-child {
+  background: url(./Image/videoContent.png);
+  background-size: 100% 100%;
+}
+.videoBlocks > div:nth-child(4) > div:first-child {
+  background: url(./Image/unconnect.png);
+  background-size: 100% 100%;
+}

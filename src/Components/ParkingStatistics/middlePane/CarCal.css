@@ -1,0 +1,20 @@
+.carNumberPane {
+  width: 100%;
+  height: 21vh;
+  margin-top: 2.5vh;
+  background: url(../img/tab4.png);
+  background-size: 100% 100%;
+}
+.carNumberTitle {
+  height: 2vh;
+  text-align: left;
+  text-indent: 1%;
+  color: rgb(255, 167, 72);
+  font-weight: 600;
+}
+.carNumberCharts {
+  display: flex;
+}
+.carNumberChart {
+  width: 100%;
+}

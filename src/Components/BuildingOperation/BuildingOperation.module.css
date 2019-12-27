@@ -1,0 +1,27 @@
+.chartAreaLong {
+  height: 50%;
+  width: 100%;
+  background: url("./Image/chartAreaLong.png");
+  background-size: 100% 100%;
+}
+
+.chartAreaAll {
+  height: 100%;
+  width: 100%;
+  background: url("./Image/chartAreaAll.png");
+  background-size: 100% 100%;
+}
+
+.chartAreaNoTitle {
+  height: 100%;
+  width: 100%;
+  background: url("./Image/chartAreaNoTitle.png");
+  background-size: 100% 100%;
+}
+
+.chartAreaMiddle {
+  height: 36%;
+  width: 100%;
+  background: url("./Image/chartAreaMiddle.png");
+  background-size: 100% 100%;
+}

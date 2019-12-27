@@ -1,0 +1,30 @@
+.innerRoom {
+  position: absolute;
+  top: 20%;
+  bottom: 2%;
+  width: 90%;
+  left: 5%;
+  background-image: url("./Image/InnerRoom.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+
+.anotherInnerRoom {
+  position: absolute;
+  top: 20%;
+  bottom: 2%;
+  width: 90%;
+  left: 5%;
+  background-image: url("./Image/switchBackPic.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+
+.buttons{
+  width: 20%;
+  position: absolute;
+  left: 2%;
+  padding-top: 2%;
+}
